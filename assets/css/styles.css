@@ -1,2 +1,183 @@
 
-/* css */
+
+h1{
+  text-align: center;
+}
+
+p.link-to-figma{
+  text-align: center;
+  font-size: 20px;
+}
+
+div.face {
+  position: absolute;
+  width: 715px;
+  height: 950px;
+  left: 348px;
+  top: 485px;
+  background: #F3BBAD;
+}
+
+
+
+
+div.left-eye {
+  position: absolute;
+  width: 218px;
+  height: 227px;
+  left: 432px;
+  top: 760px;
+  background: #FFFFFF;
+}
+
+
+div.right-eye {
+  position: absolute;
+  width: 293px;
+  height: 134px;
+  left: 760px;
+  top: 777px;
+
+  background: #FFFFFF;
+}
+
+
+div.nose{
+  position: absolute;
+  width: 146px;
+  height: 341px;
+  left: 659px;
+  top: 726px;
+
+  background: #3E2119;
+}
+
+
+div.upperlip{
+  position: absolute;
+  width: 331px;
+  height: 53px;
+  left: 605px;
+  top: 1124px;
+
+  background: #A04F43;
+}
+
+div.lowerlip{
+  position: absolute;
+  width: 352px;
+  height: 87px;
+  left: 555px;
+  top: 1191px;
+
+  background: #A04F43;
+}
+
+
+div.hair-1{
+  position: absolute;
+  width: 369px;
+  height: 251px;
+  left: 523px;
+  top: 234px;
+
+  background: #000000;
+}
+
+
+div.hair-2{
+  position: absolute;
+  width: 228px;
+  height: 290px;
+  left: 874px;
+  top: 234px;
+
+  background: #000000;
+}
+
+
+div.hair-3{
+  position: absolute;
+  width: 210px;
+  height: 404px;
+  left: 988px;
+  top: 403px;
+
+  background: #000000;
+}
+
+div.hair-4{
+  position: absolute;
+  width: 357px;
+  height: 196px;
+  left: 383px;
+  top: 167px;
+
+  background: #000000;
+}
+
+
+div.hair-5{
+  position: absolute;
+  width: 207px;
+  height: 195px;
+  left: 322px;
+  top: 329px;
+
+  background: #000000;
+}
+
+
+div.hair-6{
+  position: absolute;
+  width: 141px;
+  height: 433px;
+  left: 254px;
+  top: 440px;
+
+  background: #000000;
+}
+
+
+div.left-pupil{
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 854px;
+  top: 807px;
+
+  background: #3E2119;
+}
+
+
+div.right-pupil{
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 537px;
+  top: 817px;
+
+  background: #3E2119;
+}
+
+
+div.left-ear{
+  position: absolute;
+  width: 167px;
+  height: 127px;
+  left: 228px;
+  top: 873px;
+
+  background: #6C2D1E;
+}
+
+
+div.right-ear{
+  position: absolute;
+  width: 186px;
+  height: 280px;
+  left: 1036px;
+  top: 844px;
+
+  background: #6C2D1E;
+}
