@@ -2,9 +2,9 @@
 /* javascript */
 
 //the following return the number of portrait elements (div)
-let matches = document.querySelectorAll("div");
-let length = matches.length;
-console.log("The total number of HTML elements used in the portraint is: " + length);
+var matches = document.querySelectorAll("div");
+var length = matches.length;
+console.log(`%cThe total number of HTML elements used in the portrait is: ${length}`,"color:red; font-weight:bold; font-size:15px");
 
 //the following track the mouse and return coordinates (x and y) of the cursor
 window.addEventListener('mousemove', function(e){
@@ -15,20 +15,20 @@ window.addEventListener('mousemove', function(e){
 
 
 
-// var bauhaus = `
-//
-// Staaatliches Bauhaus (1919-1933)
-//
-//       ..-""T-..
-//     ,'__   |   '.
-//    /   N|  |     !
-//   :     '  |      :
-//   [      __|      ]
-//   :      _I       :
-//    !   ___I      /
-//     '.  N]     ,'
-//       "-"!..--"
-//
-// `;
-//
-// console.log(bauhaus);
+var bauhaus = `
+
+Staaatliches Bauhaus (1919-1933)
+
+      ..-""T-..
+    ,'__   |   '.
+   /   N|  |     !
+  :     '  |      :
+  [      __|      ]
+  :      _I       :
+   !   ___I      /
+    '.  N]     ,'
+      "-"!..--"
+
+`;
+
+console.log(bauhaus);
