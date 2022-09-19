@@ -3,8 +3,8 @@
 
 //the following return the number of portrait elements (div)
 var matches = document.querySelectorAll("div");
-var length = matches.length;
-console.log(`%cThe total number of HTML elements used in the portrait is: ${length}`,"color:red; font-weight:bold; font-size:15px");
+var number = matches.length - 1; //minus one because theres a <div> tag used to group all portrait elements
+console.log(`%cThe total number of HTML elements used in the portrait is: ${number}`,"color:red; font-weight:bold; font-size:15px");
 
 //the following track the mouse and return coordinates (x and y) of the cursor
 window.addEventListener('mousemove', function(e){
