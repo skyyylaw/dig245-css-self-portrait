@@ -1,4 +1,5 @@
 
+/* css */
 
 h1{
   text-align: center;
@@ -9,175 +10,160 @@ p.link-to-figma{
   font-size: 20px;
 }
 
+p.coordinates{
+  text-align: center;
+  font-size: 20px;
+}
+
+#portrait{
+  width: 600px;
+  height:700px;
+  position: relative;
+  margin: auto;
+}
+
+/* the following are portrait elements */
 div.face {
   position: absolute;
-  width: 715px;
-  height: 950px;
-  left: 348px;
-  top: 485px;
+  width: 357.5px;
+  height: 475px;
+  left: 174px;
+  top: 242.5px;
   background: #F3BBAD;
 }
 
-
-
-
 div.left-eye {
   position: absolute;
-  width: 218px;
-  height: 227px;
-  left: 432px;
-  top: 760px;
+  width: 109px;
+  height: 113.5px;
+  left: 216px;
+  top: 380px;
   background: #FFFFFF;
 }
-
 
 div.right-eye {
   position: absolute;
-  width: 293px;
-  height: 134px;
-  left: 760px;
-  top: 777px;
-
+  width: 146.5px;
+  height: 67px;
+  left: 380px;
+  top: 388.5px;
   background: #FFFFFF;
 }
 
-
 div.nose{
   position: absolute;
-  width: 146px;
-  height: 341px;
-  left: 659px;
-  top: 726px;
-
+  width: 73px;
+  height: 170.5px;
+  left: 329.5px;
+  top: 363px;
   background: #3E2119;
 }
 
-
 div.upperlip{
   position: absolute;
-  width: 331px;
-  height: 53px;
-  left: 605px;
-  top: 1124px;
-
+  width: 165.5px;
+  height: 26.5px;
+  left: 302.5px;
+  top: 562px;
   background: #A04F43;
 }
 
 div.lowerlip{
   position: absolute;
-  width: 352px;
-  height: 87px;
-  left: 555px;
-  top: 1191px;
-
+  width: 176px;
+  height: 43.5px;
+  left: 277.5px;
+  top: 595.5px;
   background: #A04F43;
 }
 
-
 div.hair-1{
   position: absolute;
-  width: 369px;
-  height: 251px;
-  left: 523px;
-  top: 234px;
+  width: 184.5px;
+  height: 125.5px;
+  left: 261.5px;
+  top: 117px;
 
   background: #000000;
 }
-
 
 div.hair-2{
   position: absolute;
-  width: 228px;
-  height: 290px;
-  left: 874px;
-  top: 234px;
-
+  width: 114px;
+  height: 145px;
+  left: 437px;
+  top: 117px;
   background: #000000;
 }
 
-
 div.hair-3{
   position: absolute;
-  width: 210px;
-  height: 404px;
-  left: 988px;
-  top: 403px;
-
+  width: 105px;
+  height: 202px;
+  left: 494px;
+  top: 201.5px;
   background: #000000;
 }
 
 div.hair-4{
   position: absolute;
-  width: 357px;
-  height: 196px;
-  left: 383px;
-  top: 167px;
-
+  width: 178.5px;
+  height: 98px;
+  left: 191.5px;
+  top: 83.5px;
   background: #000000;
 }
-
 
 div.hair-5{
   position: absolute;
-  width: 207px;
-  height: 195px;
-  left: 322px;
-  top: 329px;
-
+  width: 103.5px;
+  height: 97.5px;
+  left: 161px;
+  top: 164.5px;
   background: #000000;
 }
-
 
 div.hair-6{
   position: absolute;
-  width: 141px;
-  height: 433px;
-  left: 254px;
-  top: 440px;
-
+  width: 70.5px;
+  height: 216.5px;
+  left: 127px;
+  top: 220px;
   background: #000000;
 }
 
-
 div.left-pupil{
   position: absolute;
-  width: 46px;
-  height: 35px;
-  left: 854px;
-  top: 807px;
-
+  width: 23px;
+  height: 17.5px;
+  left: 427px;
+  top: 403.5px;
   background: #3E2119;
 }
-
 
 div.right-pupil{
   position: absolute;
-  width: 46px;
-  height: 35px;
-  left: 537px;
-  top: 817px;
-
+  width: 23px;
+  height: 17.5px;
+  left: 268.5px;
+  top: 408.5px;
   background: #3E2119;
 }
 
-
 div.left-ear{
   position: absolute;
-  width: 167px;
-  height: 127px;
-  left: 228px;
-  top: 873px;
-
+  width: 83.5px;
+  height: 63.5px;
+  left: 114px;
+  top: 436.5px;
   background: #6C2D1E;
 }
 
-
 div.right-ear{
   position: absolute;
-  width: 186px;
-  height: 280px;
-  left: 1036px;
-  top: 844px;
-
+  width: 93px;
+  height: 140px;
+  left: 518px;
+  top: 422px;
   background: #6C2D1E;
 }
